@@ -1,0 +1,77 @@
+Lab: [Lab Name]
+
+Objective
+
+Briefly explain the goal of the lab.
+
+Example:
+Configure a DHCP server and verify client IP address assignment.
+
+Environment
+
+Tools Used
+
+Windows Server
+PowerShell
+Command Prompt
+Virtual Machine
+Wireshark
+
+Operating System
+
+Windows 11
+Windows Server 2022
+Ubuntu Linux
+
+Skills Practiced
+
+Troubleshooting
+Networking
+Security
+User administration
+Command-line tools
+System configuration
+Actions Performed
+Installed required services or features
+Configured system settings
+Verified connectivity or functionality
+Tested results
+Documented findings
+
+Commands Used
+
+ipconfig /all
+ping 8.8.8.8
+Get-Service
+
+Verification
+
+Explain how you confirmed the lab worked correctly.
+
+Example:
+Successfully received an IP address from the DHCP server and verified internet connectivity using ping tests.
+
+Issues Encountered
+
+Describe any problems or unexpected behavior.
+
+Example:
+The client machine initially failed to obtain an IP address.
+
+Resolution
+
+Explain how the issue was fixed.
+
+Example:
+Restarted the DHCP service and renewed the client IP lease using ipconfig /renew.
+
+Key Takeaways
+DHCP automates IP address management
+Network troubleshooting often starts with connectivity testing
+Service verification is an important troubleshooting step
+
+Screenshots
+
+Include screenshots if available.
+
+Example:
