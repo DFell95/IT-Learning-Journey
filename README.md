@@ -9,7 +9,7 @@ Certifications and Topics
 
 CompTIA A+,
 CompTIA Network+,
-CompTIA Security
+CompTIA Security+
 
 Skills Practiced
 
