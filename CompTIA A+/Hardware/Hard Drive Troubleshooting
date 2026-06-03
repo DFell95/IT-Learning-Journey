@@ -1,0 +1,53 @@
+LLab: Hard Drive Troubleshooting
+
+Objective
+
+The computer can not boot into the Windows OS. I have to diagnose and fix the problem so the computer boots into Windows every time. 
+
+Environment
+
+Tools Used
+
+None
+
+Operating System
+
+Windows 11 Pro
+
+Skills Practiced
+
+Troubleshooting
+System configuration
+
+Actions Performed
+
+Turned on the computer, the screen displayed No bootable devices found. 
+Rebooted into BIOS and examined Boot Sequence settings. The internal HDD setting was disabled and out of order.
+Reconfigured and configured Boot Sequence settings
+Restarted the computer and tested the results
+Documented findings
+
+Commands Used
+
+None
+
+Verification
+
+Successfully restarted the computer twice, each time booting into Windows OS. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Enabled the Internal HDD Setting in the boot sequence setting in the BIOS and prioritized the order of the boot sequence.
+
+Key Takeaways
+
+Replicating user issues can provide additional context for what the user is reporting.
+Verification is an important troubleshooting step.
+
+Screenshots
+
+N/A 

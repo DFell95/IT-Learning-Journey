@@ -1,0 +1,54 @@
+Lab: Workstation Ethernet Connectivity 
+
+Objective
+
+Connect the workstation to the LAN and configured to connect to the Internet.
+
+Environment
+
+Tools Used
+
+Cat6a Cable w/RJ45
+
+Operating System
+
+Windows 11 Pro
+
+Skills Practiced
+
+Patch Panel Installation
+System configuration
+
+Actions Performed
+
+Identified and connected the workstation port on the patch panel to the port on the Cisco Switch using a Cat6a Cable w/RJ45
+Connected the desktop NIC port to the RJ45 wall jack using a Cat6a Cable w/RJ45
+Changed the DHCP/DNS setting in Network & Internet Settings from Manual to Automatic
+Visually confirmed connectivity in the Network & Internet Settings 
+Pinged External DNS Servers to verify connectivity
+Documented findings
+
+Commands Used
+
+Ping
+
+Verification
+
+Visually confirmed connectivity in the Internet Setting & Pinged the External DNS Servers for confirmation.
+
+Issues Encountered
+
+None
+
+Resolution
+
+The workstation was connected to the LAN and Internet by connecting the desktop to the wall port, then the patch panel, and to the switch. 
+
+Key Takeaways
+
+Verify all physical connections are properly connected and labeled before working on settings in the OS.
+Visual confirmation is useful, but utilizing tools to verify the connection is active is the correct way.
+
+Screenshots
+
+N/A 
