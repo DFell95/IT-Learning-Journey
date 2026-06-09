@@ -2,7 +2,7 @@ Lab: Workstation Ethernet Connectivity
 
 Objective
 
-Connect the workstation to the LAN and configured to connect to the Internet.
+Configure and connect the workstation to the LAN and to the Internet.
 
 Environment
 
@@ -43,11 +43,13 @@ None
 Resolution
 
 The workstation was connected to the LAN and Internet by connecting the desktop to the wall port, then the patch panel, and to the switch. 
+This completed the physical connection. Configured the settings properly to allow for a digital connection with verification, 
+ensuring the workstation was properly set up.
 
 Key Takeaways
 
-Verify all physical connections are properly connected and labeled before working on settings in the OS.
-Visual confirmation is useful, but utilizing tools to verify the connection is active is the correct way.
+Verify all physical connections are properly connected and labeled before working on settings 
+Visual confirmation is useful. The correct way is to utilize tools to verify that the connection is active.
 
 Screenshots
 

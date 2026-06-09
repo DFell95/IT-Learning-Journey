@@ -1,0 +1,74 @@
+Lab: Installing a SOHO Network 
+
+Objective
+
+Connect the router to the wall plate and configure the WAP. Connect both desktop computers to the router and configure both computers.  Connect and configure the laptop and iPad to the wireless network
+
+Environment
+
+Tools Used
+
+SOHO Router
+Wireless Access Point (WAP)
+Desktop Computers, Laptop, iPad
+Cat5e Ethernet Cables
+WAP Management System 
+
+Operating System
+
+Windows 11 Pro
+iPadOS
+
+Skills Practiced
+
+Network Configuration
+Network Troubleshooting
+Wireless Network Administration
+Device Installation and Setup
+Network Security Configuration
+
+Actions Performed
+
+Placed both the Router and the wireless access point on the desktop.
+Connected the router to the wall port with a Cat5e cable.
+Connected both desktops to the router with a Cat5e cable.
+Connected the WAP to the router with a Cat5e cable.
+Plugged in the router power supply to the router and the surge protector.
+Plugged in the WAP power supply to the router and the surge protector.
+Found that both desktop computers had no internet connections. When inspecting the settings in Network & Internet, I found both DNS and DHCP were set to Manual. I changed both computers' settings to Automatic. Both desktops were then connected to the Internet. 
+Logged into the WAP management interface using default credentials
+Changed the SSID, Pass Phrase, and Authentication Mode to WPA2-PSK with encryption method AES.
+Applied new settings in the WAP.
+Turned on the laptop's physical Wi-Fi switch and connected to the SOHO Wi-Fi with new credentials
+Turned on the iPad, opened the settings menu, and configured the wireless to connect to the SOHO Wi-Fi. 
+
+Documented findings
+
+Commands Used
+
+None
+
+Verification
+
+Verified both the router and WAP had power and connectivity by verification of the lights on the devices.
+Both desktops, once the settings were configured correctly, visually showed they were connected.
+iPad showed its connectivity to the Wi-Fi once the passphrase was entered.
+The laptop had to have a physical switch to turn on to discover the Wi-Fi. Then, once the passphrase was entered, it showed connected to the internet. 
+
+Issues Encountered
+
+Desktops did not immediately connect to the internet once the physical connection was established. Normally, that was not the case, as the computer automatically connects. While it wasn't necessarily an issue, it caught me off guard, and I had to verify the issue in the settings to ensure everything was correct. 
+
+Resolution
+
+Installed and configured both the router and WAP, allowing for internet connectivity in the SOHO. Both Desktops were connected with Cat5e cables directly to the router, while the iPad and Laptop were configured and connected to the Wireless network. Updated the setting in the WAP to change the default SSID, add a new passphrase, and change the authentication method to WPA2-PSK, a more secure form. I would have used ping to verify that all of the Windows OS were connected to the internet properly, but the lab had limits. 
+
+Key Takeaways
+
+Proper DHCP and DNS configuration is required for devices to obtain connectivity.
+Default wireless credentials should be changed as part of the network setup.
+Configure the wireless security to the strongest authentication and encryption methods your devices can use. 
+
+Screenshots
+
+N/A 
