@@ -1,0 +1,65 @@
+Lab: Manage IaaS VM in Azure
+
+Objective
+
+Create a Virtual Machine in Azure under the correct Subscription and Resource group. 
+
+Environment
+
+Tools Used
+
+Microsoft Azure Portal
+Azure Resource Groups
+Azure Subscription Management
+Azure Virtual Machine
+
+Operating System
+
+Microsoft Azure
+
+Skills Practiced
+
+Cloud Administration
+Resource Management
+Azure Portal Navigation
+Cloud Infrastructure Configuration
+Virtual Machine Deployment
+
+Actions Performed
+
+1. Logged into MS Azure Portal.
+2. On the Azure Home Page, the Resource Group is listed under resources. 
+3. Under the Azure Services is Virtual Machine. I opened this page to configure the Virtual Machine.  
+4. The new page shows no previously created VMs. I clicked on Create Azure virtual machine.
+5. In the Create a virtual machine page, I corrected the subscription and verified the Resource group name. 
+6. In Instance Details, I provided a VM name, provided the correct region, specified the image required for the VM, and specified the size of the VM.
+7. Under Administrator Account, I added the username and password.
+8. I then moved to the Disks page and selected Standard HDD with Delete with the VM box selected. 
+9. I reviewed the remaining options and reviewed my settings on the Review + create page to verify everything was correct before creating the machine. Once verified, I created the VM. 
+10. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+After creating the VM, Azure sent me to a page showing the in-progress deployment of the VM. Once complete, it displayed completion with the corresponding subscription and resource group. Also, going to the Azure Home Portal, I was able to see and confirm the status by clicking the VM hyperlink. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully created and verified the Azure Virtual Machine within the selected subscription and region. Confirmed the Virtual Machine was available. 
+
+Key Takeaways
+
+Resource groups help organize and manage related cloud resources.
+VM sizing impacts performance and cost to an organization.
+Reviewing configurations before deployment helps prevent resource misconfiguration. 
+ 
+Screenshots
+
+N/A 

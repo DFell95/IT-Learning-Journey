@@ -33,7 +33,8 @@ Hands-on labs involving:
 Windows administration, 
 Hardware, 
 Linux basics, 
-Networking fundamentals, 
+Networking fundamentals,
+Cloud,
 Troubleshooting
 
 Network+
@@ -43,7 +44,8 @@ Labs and exercises involving:
 Subnetting, 
 Routing and switching, 
 DNS and DHCP, 
-Wireless networking, 
+Wireless networking,
+Cloud,
 Network troubleshooting
 
 Security+
