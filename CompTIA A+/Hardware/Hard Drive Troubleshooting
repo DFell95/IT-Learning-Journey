@@ -21,11 +21,11 @@ System configuration
 
 Actions Performed
 
-Turned on the computer, the screen displayed No bootable devices found. 
-Rebooted into BIOS and examined Boot Sequence settings. The internal HDD setting was disabled and out of order.
-Reconfigured and configured Boot Sequence settings
-Restarted the computer and tested the results
-Documented findings
+1. Turned on the computer, the screen displayed No bootable devices found. 
+2. Rebooted into BIOS and examined Boot Sequence settings. The internal HDD setting was disabled and out of order.
+3. Reconfigured and configured Boot Sequence settings
+4. Restarted the computer and tested the results
+5. Documented findings and ended lab
 
 Commands Used
 

@@ -1,0 +1,61 @@
+Lab: Azure Interface
+
+Objective
+
+Configure Azure by creating a Resource Group.
+
+Environment
+
+Tools Used
+
+Microsoft Azure Portal
+Azure Resource Groups
+Azure Subscription Management
+
+Operating System
+
+Microsoft Azure
+
+Skills Practiced
+
+Cloud Administration
+Resource Management
+Azure Portal Navigation
+Cloud Infrastructure Configuration
+
+Actions Performed
+
+1. Logged into MS Azure Portal.
+2. Under Navigate, clicked on the Resource groups option.
+3. The new page shows no resource groups. Clicked on Create Resource Group.
+4. In the Project details, I clicked on the appropriate subscription and provided a Resource group name
+5. Under the Resource details in Region, I selected the appropriate Region for the clients utilizing the Resource Group
+6. I reviewed the setting for accuracy and created the Group.
+7. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+After reviewing, Microsoft Azure opened into a new page containing the Resource Group created under the Subscription. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully created and verified the Azure Resource Group within the selected subscription and region. 
+Confirmed the Resource Group was available for future cloud resource deployments. 
+
+Key Takeaways
+
+Created and configured an Azure Resource Group to logically organize and manage cloud resources within a subscription. 
+I learned that Resource Groups serve as containers for Azure services, such as virtual machines, storage accounts, 
+and networking resources. 
+
+Screenshots
+
+N/A 

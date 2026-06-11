@@ -29,20 +29,19 @@ Network Security Configuration
 
 Actions Performed
 
-Placed both the Router and the wireless access point on the desktop.
-Connected the router to the wall port with a Cat5e cable.
-Connected both desktops to the router with a Cat5e cable.
-Connected the WAP to the router with a Cat5e cable.
-Plugged in the router power supply to the router and the surge protector.
-Plugged in the WAP power supply to the router and the surge protector.
-Found that both desktop computers had no internet connections. When inspecting the settings in Network & Internet, I found both DNS and DHCP were set to Manual. I changed both computers' settings to Automatic. Both desktops were then connected to the Internet. 
-Logged into the WAP management interface using default credentials
-Changed the SSID, Pass Phrase, and Authentication Mode to WPA2-PSK with encryption method AES.
-Applied new settings in the WAP.
-Turned on the laptop's physical Wi-Fi switch and connected to the SOHO Wi-Fi with new credentials
-Turned on the iPad, opened the settings menu, and configured the wireless to connect to the SOHO Wi-Fi. 
-
-Documented findings
+1. Placed both the Router and the wireless access point on the desktop.
+2. Connected the router to the wall port with a Cat5e cable.
+3. Connected both desktops to the router with a Cat5e cable.
+4. Connected the WAP to the router with a Cat5e cable.
+5. Plugged in the router power supply to the router and the surge protector.
+6. Plugged in the WAP power supply to the router and the surge protector.
+7. Found that both desktop computers had no internet connections. When inspecting the settings in Network & Internet, I found both DNS and DHCP were set to Manual. I changed both computers' settings to Automatic. Both desktops were then connected to the Internet. 
+8. Logged into the WAP management interface using default credentials
+9. Changed the SSID, Pass Phrase, and Authentication Mode to WPA2-PSK with encryption method AES.
+10. Applied new settings in the WAP.
+11. Turned on the laptop's physical Wi-Fi switch and connected to the SOHO Wi-Fi with new credentials
+12. Turned on the iPad, opened the settings menu, and configured the wireless to connect to the SOHO Wi-Fi. 
+13. Documented findings and ended lab
 
 Commands Used
 
@@ -61,7 +60,9 @@ Desktops did not immediately connect to the internet once the physical connectio
 
 Resolution
 
-Installed and configured both the router and WAP, allowing for internet connectivity in the SOHO. Both Desktops were connected with Cat5e cables directly to the router, while the iPad and Laptop were configured and connected to the Wireless network. Updated the setting in the WAP to change the default SSID, add a new passphrase, and change the authentication method to WPA2-PSK, a more secure form. I would have used ping to verify that all of the Windows OS were connected to the internet properly, but the lab had limits. 
+Installed and configured both the router and WAP, allowing for internet connectivity in the SOHO. Both Desktops were connected with Cat5e cables directly to the router, while the iPad and Laptop were configured and connected to the Wireless network. 
+Updated the setting in the WAP to change the default SSID, add a new passphrase, and change the authentication method to WPA2-PSK, a more secure form. 
+I would have used ping to verify that all of the Windows OS were connected to the internet properly, but the lab had limits. 
 
 Key Takeaways
 

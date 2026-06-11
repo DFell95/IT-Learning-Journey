@@ -21,12 +21,12 @@ System configuration
 
 Actions Performed
 
-Identified and connected the workstation port on the patch panel to the port on the Cisco Switch using a Cat6a Cable w/RJ45
-Connected the desktop NIC port to the RJ45 wall jack using a Cat6a Cable w/RJ45
-Changed the DHCP/DNS setting in Network & Internet Settings from Manual to Automatic
-Visually confirmed connectivity in the Network & Internet Settings 
-Pinged External DNS Servers to verify connectivity
-Documented findings
+1. Identified and connected the workstation port on the patch panel to the port on the Cisco Switch using a Cat6a Cable w/RJ45
+2. Connected the desktop NIC port to the RJ45 wall jack using a Cat6a Cable w/RJ45
+3. Changed the DHCP/DNS setting in Network & Internet Settings from Manual to Automatic
+4. Visually confirmed connectivity in the Network & Internet Settings 
+5. Pinged External DNS Servers to verify connectivity
+6. Documented findings and ended lab
 
 Commands Used
 

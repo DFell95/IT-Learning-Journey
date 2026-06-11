@@ -30,28 +30,28 @@ Open Issue Track Ticket Management System and identified 3 High-Priority Tickets
 
 Ticket# 11:
 Issue: User reports the computer will not turn on upon arriving at work. 
-Attempted to turn on the computer and confirmed the user issue.
-Conduct a physical inspection of power cables on all computers; all are plugged in correctly, but I discovered VoIP had no power. 
-Conducted a physical inspection of the power strip and found it was switched off. 
-Turned on the power strip, the desktop, and the monitor. Confirmed Computer now powers on
-Provided a professional comment on the ticket and closed it out.
+1. Attempted to turn on the computer and confirmed the user issue.
+2. Conduct a physical inspection of power cables on all computers; all are plugged in correctly, but I discovered VoIP had no power. 
+3. Conducted a physical inspection of the power strip and found it was switched off. 
+4. Turned on the power strip, the desktop, and the monitor. Confirmed Computer now powers on
+5. Provided a professional comment on the ticket and closed it out.
 
 Ticket# 12:
 Issue: User reports the computer won't start, but it will make a beeping noise when it turns on.
-Turned on the computer and confirmed the user issue of a series of beeps. No external observation would contribute to the beeping
-The working theory is a RAM issue.
-Ensured all power sources were turned off, unplugged the computer, and grounded myself
-Upon opening the desktop, I verified that no RAM was installed. 
-Verified the type, speed, and placement for Dual Channel against the motherboard specs. Installed 2x DDR3, 2GB 1600
-Restarted the desktop into BIOS and confirmed the Memory Information of RAM specification, then booted into Windows. 
-Provided a professional comment on the ticket and closed it out.
+1. Turned on the computer and confirmed the user issue of a series of beeps. No external observation would contribute to the beeping
+2. The working theory is a RAM issue.
+3. Ensured all power sources were turned off, unplugged the computer, and grounded myself
+4. Upon opening the desktop, I verified that no RAM was installed. 
+5. Verified the type, speed, and placement for Dual Channel against the motherboard specs. Installed 2x DDR3, 2GB 1600
+6. Restarted the desktop into BIOS and confirmed the Memory Information of RAM specification, then booted into Windows. 
+7. Provided a professional comment on the ticket and closed it out.
 
 Ticket# 13:
 Issue: User reports computer will turn on, but the monitor fails to display anything. 
-The computer is on arrival with the monitor displaying No Signal Detected.
-Conducted a physical inspection to verify cable connections. Discovered that the HDMI was disconnected from the desktop HDMI port.
-Plugged the HDMI Cable back in, and the monitor regained connection. 
-Provided a professional comment on the ticket and closed it out.
+1. The computer is on upon arrival with the monitor displaying No Signal Detected.
+2. Conducted a physical inspection to verify cable connections. Discovered that the HDMI was disconnected from the desktop HDMI port.
+3. Plugged the HDMI Cable back in, and the monitor regained connection. 
+4. Provided a professional comment on the ticket and closed it out.
 
 Commands Used
 
