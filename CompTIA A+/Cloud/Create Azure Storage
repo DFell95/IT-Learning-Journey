@@ -1,0 +1,65 @@
+Lab: Create Azure Storage
+
+Objective
+
+Create an Azure Storage account. Then create a file share with on-premise files to synchronize with the cloud. 
+
+Environment
+
+Tools Used
+
+Microsoft Azure Portal
+Azure Resource Groups
+Azure Subscription Management
+Azure Storage Account
+
+Operating System
+
+Microsoft Azure
+
+Skills Practiced
+
+Cloud Administration
+Resource Management
+Azure Portal Navigation
+Cloud Infrastructure Configuration
+Cloud Storage Management
+
+Actions Performed
+
+1. Logged into MS Azure Portal.
+2. On the Azure Home Page, the Resource Group and Storage Sync Service are listed under resources. 
+3. Under the Azure Services is Storage accounts. I opened this page to configure the Storage account.  
+4. The new page shows no previously created accounts. I clicked on Create.
+5. In the Create a storage account page, I verified that the appropriate subscription and Resource group name were selected. 
+6. In Instance Details, I provided a storage account name, provided the correct region, and selected the correct redundancy.
+7. I reviewed the remaining options and reviewed my settings on the Review + create page to verify everything was correct before creating the account. Once verified, I created the storage account.
+8. I opened the new storage account to create a file share between the Azure and on-site storage. This is located under Data Storage in the left side navigation pane. 
+9. Once in the File share option, I clicked on File share and put the additional information into the settings. Once verified, all settings and information were correct, I created the File share. 
+10. I verified the file share was active within the new Storage account. 
+11. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+After deploying the storage account, Azure sent me to a page showing the in-progress deployment of the account. Once complete, it displayed completion with the corresponding subscription and resource group. Also, going to the Azure Home Portal, I was able to see and confirm the status by clicking the Storage account hyperlink. After creating the file share, I verified it was active within the storage account. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully deployed an Azure Storage Account within the selected subscription and region. Created and verified an Azure File share to support synchronization. confirmed all resources were available. 
+
+Key Takeaways
+
+Azure Storage Accounts provide scalable cloud-based storage services
+Storage redundancy helps protect data availability and durability 
+
+Screenshots
+
+N/A 
