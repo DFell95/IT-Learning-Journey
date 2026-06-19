@@ -1,0 +1,63 @@
+Lab: Create Users & Groups
+
+Objective
+
+Create three user accounts and assign them to the appropriate group. Each user needs appropriate access that corresponds with their responsibilities.   
+
+Environment
+
+Tools Used
+
+Computer Management Console
+Local Users and Groups (lusrmgr.msc)
+Windows 11 Pro
+
+Operating System
+
+Windows 11 Pro
+
+Skills Practiced
+
+Local User and Group Configuration
+User Account Administration
+Access Control Management
+System Configuration
+Identity and Access Management (IAM)
+
+Actions Performed
+
+1. Opened the Computer Management Console. Under System Tools, I located Local Users & Groups.
+2. Verified that no existing users currently exist with the recommended User Account Name.  
+3. In the right pane under More Actions, I clicked on New User. This can also be done by right-clicking in the user pane. 
+4. New User panel populated. I entered the User Name, Full name, Initial password, and verified that the option " User must change password at the next logon" is selected. 
+5. Verified all information is correct and created a user. The form fields were cleared after the account was created. I repeated this process for two other users.
+6. Verified all New Users are in the Users Pane.
+7. Two of the users need to be added to a particular group. In the left pane under the Groups folder, I found the appropriate group based on the users' required access. I right-clicked the appropriate group and clicked Add to Group.
+8. The Group Properties window opened. I clicked on Add, and the Select Users window populated. Under object names, I typed the User Name and selected the check name. Once the correct user account was identified and validated, I clicked ok. 
+9. The Group Properties window now displays the added User name inside the Members area. I clicked apply and ok to close the window. I applied the same actions to one other user.
+10. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+Verified all three user accounts were successfully created and displayed in the Local Users container. Verified the appropriate users were assigned to the correct groups by reviewing membership within the Group Properties window.
+
+Issues Encountered
+
+I attempted to apply the groups within the Users Properties under the Member Of tab. While I could do this, I realized I was not familiar with the different Groups and their different rights. I found it easier to go through the Groups Tab and identify the group rights. 
+
+Resolution
+
+Successfully created three local user accounts and assigned users to the appropriate groups based on their required access. Verified user creation and group membership within the Local Users and Groups management console.
+
+Key Takeaways
+
+- User Accounts should only receive the required permissions for their appropriate responsibilities, adhering to the Principle of Least Privilege. This will reduce possible security risks. 
+- Reviewing group descriptions helps determine the appropriate level of access. 
+
+Screenshots
+
+N/A 

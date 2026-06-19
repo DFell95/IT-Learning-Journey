@@ -1,0 +1,79 @@
+Lab: Managing Files and Folders
+
+Objective
+
+Utilizing PowerShell, create a new directory, delete a directory and all of its files, set certain files to hidden, and other files to Read-only. 
+
+Environment
+
+Tools Used
+
+Windows PowerShell
+Windows 11 Pro
+
+Operating System
+
+Windows 11 Pro
+
+Skills Practiced
+
+PowerShell Administration
+File System Management
+Command-Line Operations
+File Attribute Management
+System Administration
+
+Actions Performed
+
+1. Verified the lab started in PowerShell as the Administrator. This allows me the appropriate rights to create, delete, and modify settings.
+2. First, I wanted to create the requested directory. I verified that there was no existing directory.
+3. Created a new directory using the mkdir command and verified the creation by navigating to the directory
+4. Need to delete a specified folder. Navigated to the directory using the cd d:\software command.
+5. I verified the folder was there utilizing the dir command.
+6. To get the correct syntax, I used the rm dir /? command. 
+7. Deleted the folder using the rm dir /s (file path) command.
+8. Used dir to verify the folder was no longer there. 
+9. Used attrib /? to get the correct syntax for setting the attribute hidden on a file.
+10. Set two files to hidden with the attrib D:\software\filename.exe +H command. Verified the hidden attribute was applied with dir command.
+11. Changed directory using cd d:\ and used dir to verify the file was located in the directory.
+12. Set the file to hidden using the attrib D:\filename +H command.
+13. Verified the attribute was correct using dir. 
+14. Changed directory to D:\software using cd d\:software cmd.
+15. Verified that both files are located in the directory using dir.
+16. Changed both files to read-only using the attrib D:\software\filename +R command.
+17. Documented findings and ended lab.
+
+Commands Used
+
+mkdir - Create a new directory
+rm dir - Remove a directory
+cd - Change a directory
+dir - Display directory contents
+rm dir /? - Shows syntax for this command
+attrib /? - Shows syntax for this command
+attrib (file name) +H - Modifies the file to hidden
+attrib (file name) +R - Modifies the file to read-only
+
+Verification
+
+Verified the new directory was successfully created. Verified the target directory and its contents were deleted. Confirmed the hidden attribute was applied to the designated files and verified the read-only attribute was successfully configured on the specified files.
+
+Issues Encountered
+
+1. I attempted to change the directory with the appropriate command. I realized afterward that I should first verify that no directory exists. 
+2. I forgot the syntax to remove the files from a directory on a command line, so I utilized the rm dir /? cmd for help.
+3. I did the same for setting the attributes for hidden files and read the old file with attrib /?
+
+Resolution
+
+The requested directories were created, and another directory, with all its files, was deleted. Two files in different directories were set to hidden in the attributes and verified. Two other files were set to Read-only in the attributes. 
+
+Key Takeaways
+
+- Built-in help commands can be a valuable resource if the command syntax is forgotten
+- Verifications should be performed after administrative changes to confirm completion
+- Command-line can be an efficient management of file and directories, but also requires care when typing the command.
+
+Screenshots
+
+N/A 
