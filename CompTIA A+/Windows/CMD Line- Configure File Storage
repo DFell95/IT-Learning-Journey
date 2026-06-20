@@ -1,0 +1,84 @@
+Lab: Configure File Storage
+
+Objective
+
+Establish storage media and directories to allow a computing environment for the user to work. 
+
+Environment
+
+Tools Used
+
+Windows 11 Pro
+Disk Management Console
+Windows PowerShell
+Robocopy
+File Explorer
+
+Operating System
+
+Windows 11 Pro
+
+Skills Practiced
+
+Storage Management
+PowerShell Administration
+Data Migration
+Command-Line Troubleshooting
+File System Management
+
+Actions Performed
+
+1. First, I logged in to the account with the appropriate user name & password
+2. I need to format a removable media device, a USB drive. I opened the Disk Management console. 
+3. After reviewing the available disks, I identified Disk 1 as the USB drive. This disk had unallocated storage. 
+4. Right-clicked on the unallocated storage and clicked on the New Simple Volume option. This opened the New Simple Volume Wizard.
+5. Moved through the options of the wizard by applying all the space available, assigning the Drive Letter U, selecting FAT32, and setting the Volume Label to USB.
+6. Reviewed the selected setting on the final page of the wizard, then clicked finish. 
+7. Verified Disk 1 now shows USB. Verifying in File Explorer, I can see the USB Drive populating in This PC. 
+8. I am also required to perform a file copy utilizing PowerShell and robocopy. I have to copy the HR and Sales to the new U: drive. Certain files and folders are not allowed to be copied.
+9. I opened PowerShell with administrator privileges. I clicked Yes when the UAC prompt populated.
+10. PowerShell opened in System32. Changed the Directory to the C: drive using the cd c:\ command. 
+11. Verified Sales and HR folders were in the C: drive with the dir command. 
+12. Displayed the syntax for robocopy using robocopy /?. This will ensure I get the correct command, flag, and syntax to copy all required folders and files. 
+13. Used the command robocopy c:\hr u:\ /XF c:\HR\employees.csv /XD c:\hr\disciplinary /XD c:\hr\payroll. I changed directories and verified the contents copied over by using cd u:
+14. I realized I made a mistake. While the contents copied over correctly, the parent folder did not. I conducted some research to verify why this happened.
+15. After I realized my mistake, I went into the USB folder using File Explorer and deleted the copied files. I wanted to get the process correct.
+16. After going back in PowerShell, I changed the directory to the C: drive and typed the command robocopy c:\hr u:\hr /XF employees.csv /XD disciplinary payroll. 
+17. I changed directories and verified the contents copied over by using cd u:. This time, the command was typed out correctly. Not utilizing the HR in the U:\ drive just allowed the contents to be copied, not the parent folder with the contents. 
+18. I changed directories back to C:\ drive and typed the command robocopy c:\sales U:\sales /xf sales.ods customers.csv
+19. I changed the directory and verified the robocopy command was successful with excluding certain files.
+20. I verified everything within the File Explorer in the U: Drive.
+21. Documented findings and ended the lab.
+
+Commands Used
+
+cd - Change directory
+dir - Displays the contents of the current directory
+robocopy /? - Displayed the syntax for the command
+/XF - Excludes a certain file
+/XD - Excludes a certain directories
+robocopy - Can copy files and folders
+
+Verification
+
+Verified the USB drive was successfully formatted and assigned the appropriate drive letter. Verified the HR and Sales folders were copied to the USB drive while excluding the specified files and directories. Confirmed the copied data through both PowerShell and File Explorer.
+
+Issues Encountered
+
+I was unfamiliar with how to type out the robocopy command. The /? gave me the correct syntax and command structure. But I still didn't understand how to type it out correctly. I researched the command syntax using online documentation to verify the proper structure and parameters. I had four wrong characters in the command. After correcting the issue and verifying it was correct, additional research provided alternative examples on how I could type the command structure and syntax. While my long written command was correct, it displayed a shortened variation. I used this variation in my actions. 
+
+Resolution
+
+Successfully formatted and configured the USB storage device. Used Robocopy to migrate the HR and Sales directories while excluding specified files and folders. Corrected initial command syntax issues and verified successful file migration.
+
+Key Takeaways
+
+- Robocopy is a tool for copying large amounts of data while excluding certain files and directories.
+- Built-in help commands can be valuable when learning unfamiliar command syntax.
+- Verification should be performed after data migration activities to ensure accuracy.
+- Small syntax errors can significantly affect command-line results.
+- Testing and correcting mistakes is an important part of the troubleshooting process.
+
+Screenshots
+
+N/A 
