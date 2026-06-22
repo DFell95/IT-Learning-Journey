@@ -1,0 +1,65 @@
+Lab: Creating User Accounts
+
+Objective
+
+Create new accounts for new employees on the server with Active Directory. Restrictions will also need to be applied to the temporary employee.   
+
+Environment
+
+Tools Used
+
+Windows Server 2019 Datacenter
+Virtual Machines (VM)
+
+Operating System
+
+Windows Server 2019 Datacenter
+
+Skills Practiced
+
+Active Directory Administration
+User Account Management
+Organizational Unit (OU) Management
+Account Security Configuration
+Identity & Access Management (IAM)
+
+Actions Performed
+
+1. Upon logging in, I opened Hyper-V Manager and located the correct Virtual Machine running the required server. I connected to that VM. 
+2. After connecting, the Server Manager is populated. I opened the Tools menu and clicked on Active Directory Users and Computers. This would allow me to create the new users.
+3. Using the domain tree, I expanded the domain structure to view the available Organizational Units (OUs) and containers. 
+4. The first user is in the Marketing OU as a manager. I locate the appropriate Marketing Organizational Unit and create a new user account.
+5. I add the user information for first & last name, user name, temporary password, and force the user to change their password on the next login. I verified the information and created the new user.
+6. The new user account appeared in the appropriate Organizational Unit. 
+7. I repeated this process for two additional permanent employees in the Sales Organizational Unit.
+8. The temporary user is created in the same parent department Organizational Unit as the permanent employees. The Temp Employees have a sub-Organizational Unit. After creating the user, I opened up the User's Properties to add restrictions to the account.
+9. Under the Tab "Account", the following restrictions were applied: User is only allowed to log on Monday through Friday, 8 am to 5 pm. This was established under Logon Hours. The employee's account also needed an expiration date. The account is set to expire on Dec 31, 2026. I verified all restrictions and closed the properties.
+10. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+Verified each user account was created in the correct Organizational Unit. Verified all account information, including usernames, passwords, and account settings, before finalizing account creation. Verified the temporary employee account restrictions, including logon hours and account expiration date, were configured correctly. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully created four user accounts within the appropriate Organizational Units. Configured account settings and security restrictions for the temporary employee account, including logon hours and account expiration. Verified all user accounts and settings were configured according to requirements.
+
+Key Takeaways
+
+- Organizational Units help organize users and simplify administration.
+- Active Directory allows administrators to manage user accounts and permissions centrally.
+- Account restrictions can improve security by limiting when temporary users may access resources.
+- Account expiration dates help ensure temporary accounts do not remain active longer than required.
+- Verification is important to ensure accounts are created in the correct location with the proper settings.
+
+Screenshots
+
+N/A 
