@@ -1,0 +1,65 @@
+Lab: Create Organizational Units in Active Directory
+
+Objective
+
+Create new Organizational Units in Active Directory on a new Hyper-V server. The Structure will mirror the company's departments.
+
+Environment
+
+Tools Used
+
+Windows Server 2019 Datacenter
+Virtual Machines (VM)
+
+Operating System
+
+Windows Server 2019 Datacenter
+
+Skills Practiced
+
+Active Directory Administration
+Organizational Unit (OU) Management
+Directory Structure Management
+Active Directory Organization
+Administrative Configuration
+
+Actions Performed
+
+1. Upon logging in, I opened Hyper-V Manager and located the correct Virtual Machine running the required server. I connected to that VM. 
+2. After connecting, the Server Manager is populated. I opened the Tools menu and clicked on Active Directory Users and Computers. This would allow me to create the Organizational Units.
+3. Using the domain tree, I expanded the domain structure to view the available Organizational Units (OUs) and containers. 
+4. Verified the requested Organizational Units did not already exist. Opened the New Object – Organizational Unit menu by right-clicking the domain tree.
+5. Verified the new OU would be created in the correct location. I entered the department name into the Organizational Unit name field.
+6. After verifying the OU name and location, I clicked OK to create the Organizational Unit.
+7. Upon clicking OK, the new Organizational Unit appeared within the domain tree.
+8. This process was repeated for seven additional Organizational Units.
+9. The Sales department required two additional sub-OUs. I opened the parent Sales OU and repeated the process to create the required sub-OUs.
+10. Verified each Organizational Unit was created within the correct domain structure and location. Verified all OU names matched the required department names and confirmed the Sales sub-OUs were created under the appropriate parent OU.
+11. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+Verified each Organizational Unit was created within the correct domain structure and location. Verified all OU names matched the required department names and confirmed the Sales sub-OUs were created under the appropriate parent OU. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully created Organizational Units within the appropriate domain structure. Created departmental OUs and additional sub-OUs for the Sales department. Verified all Organizational Units were created in the correct locations and matched the required company structure.
+
+Key Takeaways
+
+- Organizational Units help structure and organize Active Directory environments.
+- OUs simplify administration by grouping users, computers, and resources by department.
+- Proper OU design supports scalability and easier management.
+- Verifying the placement of OUs is important to maintain an organized directory structure.
+
+Screenshots
+
+N/A 

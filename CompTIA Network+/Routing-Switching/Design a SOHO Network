@@ -1,0 +1,66 @@
+Lab: Design a SOHO Network
+
+Objective
+
+Designing a new SOHO network using the network modeler.
+
+Environment
+
+Tools Used
+
+Terminal
+Network Modeler
+
+Operating System
+
+Windows 10 Enterprise
+Windows 11 Pro
+
+Skills Practiced
+
+SOHO Network Design
+Network Topology
+Device Connectivity
+DHCP Configuration
+Network Connectivity Testing
+
+Actions Performed
+
+1. I logged in to the lab. The canvas was blank. In the End Devices tray, I added two PCs and a Laptop to the canvas.
+2. Under the Switch icon, I added a switch to the canvas. 
+3. Under the Router icon, I added a router to the canvas. 
+4. Utilizing the Create Link button, I connected the Router, Port 0, to the Switch, Port 0.
+5. Connected both desktop PCs and the laptop to Switch Ports 1, 2, and 3 using the Create Link tool. 
+6. Verified all network connections were complete and correctly displayed in the Network Modeler. 
+7. I then launch Windows on PC1. I open the Network & Internet tab in settings. I verify that the IP and DNS settings are set to Automatic. 
+8. Opened an administrative terminal and verified network connectivity by pinging the external DNS server.
+9. I confirmed connectivity on the other PC and laptop using the same procedure as above. 
+10. Documented findings and ended lab
+
+Commands Used
+
+ping 192.168.1.1
+
+Verification
+
+I verified all devices were placed on the canvas and connected properly. After I completed verification on the modeler, I ensured every End Device DHCP and DNS were set to automatic and pinged the external DNS Server. The ping command verified that every device was properly connected.
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully designed and verified a small SOHO network using the Network Modeler. Connected all end devices, confirmed DHCP and DNS settings, and verified network connectivity using the ping command. 
+
+Key Takeaways
+
+- A switch provides local network connectivity between end devices.
+- A router connects the local network to external networks.
+- DHCP simplifies client configuration by automatically assigning IP settings.
+- Connectivity should always be verified after network deployment.
+- The ping command is a quick method for validating basic network communication.
+
+Screenshots
+
+N/A 

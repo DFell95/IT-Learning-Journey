@@ -1,0 +1,62 @@
+Lab: Connect a Media Converter
+
+Objective
+
+Connect the media converter to the fiber optics and the existing Ethernet cable in the Network Closet. 
+
+Environment
+
+Tools Used
+
+Media Converter, 1000BaseFX to 1000BaseTX
+SC to LC Fiber Cable
+
+Operating System
+
+None
+
+Skills Practiced
+
+Fiber Optic Connectivity
+Media Converter Installation
+Network Infrastructure
+Physical Network Cabling
+Network Connectivity Verification
+
+Actions Performed
+
+1. First, I mounted and secured the Media Converter to the network rack.
+2. I then moved the Ethernet cable connected to the wall port to the Media converter. Disconnected the existing Ethernet cable from the previous ISP connection and connected it to the media converter.
+3. Connected the SC fiber cable from Ports 23 (Tx) and 24 (Rx) to the media converter using the LC duplex connector, establishing connectivity to the new fiber ISP. 
+4. Connected the C14 power adapter to the UPS. Connected the media converter's AC power adapter to the C14 adapter, then connected the DC power cable to the media converter. Verified all power connections were connected to the UPS critical load bank.
+5. Once provided power, the Media Converter boots up through its power sequence using its lights. 
+6. Utilizing a workstation, I verified the connection.
+7. Documented findings and ended lab
+
+Commands Used
+
+None
+
+Verification
+
+Verified all fiber, Ethernet, and power connections were properly installed. Verified the media converter completed its startup sequence successfully and confirmed workstation connectivity to the new ISP connection.
+
+Issues Encountered
+
+At first, I was going to connect the Power to the media connection, then the fiber and Ethernet cables. Before I did, I wondered if there was a correct sequence and a reason behind it. After reviewing installation best practices, I found it was best to connect the Fiber and Ethernet connections first, then the power. This would enable me to see the start-up sequence on the media converter using the display lights. If I did this in reverse, it would not display the sequence and possibly miss a symptom if an issue were encountered. 
+
+Resolution
+
+Successfully installed and connected the media converter between the existing Ethernet infrastructure and the new fiber ISP connection. Verified the device powered on correctly and confirmed end-to-end network connectivity from a workstation.
+
+Key Takeaways
+
+- Media converters allow Ethernet networks to connect to fiber optic infrastructure.
+- Proper installation order can simplify troubleshooting during device startup.
+- Fiber transmit (Tx) and receive (Rx) connections must be connected correctly for successful communication.
+- Verifying connectivity after installation helps ensure the network is operating as expected.
+- UPS-backed network equipment improves reliability during power interruptions.
+
+Screenshots
+
+N/A 
