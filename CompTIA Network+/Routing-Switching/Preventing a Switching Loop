@@ -1,0 +1,62 @@
+Lab: Preventing a Switching Loop
+
+Objective
+
+Establish connectivity between all network devices while preventing a switching loop caused by redundant switch connections.
+
+Environment
+
+Tools Used
+
+Router
+Switches x3
+
+Operating System
+
+N/A
+
+Skills Practiced
+
+Switch Port Configuration
+Layer 2 Switching
+Network Topology
+Switching Loop Prevention
+Physical Link Verification
+
+Actions Performed
+
+1. Started in a network closet with one router and 3 switches. Each device has patch cables already configured, but none of the ports are activated
+2. First, starting with the router, I activated both the internet port and the LAN port. The LAN port is connected to Switch 1, port 23.
+3. On Switch 1, I activated Port 23 to establish connectivity with the router. I then activated Ports 1, 3, and 5 for the connected computers. Of the two switch uplinks, I activated the right uplink connecting Switch 1 to Switch 2. 
+4. On Switch 2, I activated Ports 1, 3, and 5 for the connected computers. I activated the left uplink connecting Switch 2 to Switch 3. 
+5. On Switch 3, I activated Ports 1, 3, and 5 for the connected computers. I activated the left uplink connecting Switch 3 to Switch 2. I left the right uplink to Switch 1 disabled to prevent the redundant connection from creating a switching loop.
+6. Documented findings and ended the lab
+
+Commands Used
+
+N/A
+
+Verification
+
+Verified the required ports were activated by confirming the green status indicator on each port. Confirmed the redundant uplink between Switch 1 and Switch 3 remained disabled to prevent a switching loop. 
+
+Issues Encountered
+
+None
+
+Resolution
+
+Successfully activated the required router, switch, and endpoint ports while preventing a switching loop by leaving the redundant Switch 1-to-Switch 3 uplink disabled.
+
+Key Takeaways
+
+- Redundant switch connections can improve network resilience but may create Layer 2 switching loops if not properly managed.
+- Switch uplinks must be planned carefully when multiple switches are interconnected.
+- A redundant physical connection should not simply be activated without considering its effect on the network topology.
+- Port status indicators provide a quick method for verifying physical link status.
+- Understanding the network topology before enabling switch ports can help prevent connectivity problems.
+
+
+Screenshots
+
+N/A 
